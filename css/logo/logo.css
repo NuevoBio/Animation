@@ -1,0 +1,19 @@
+.logo{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    -moz-transition: all 3s ease-in-out;
+    -webkit-transition: all 3s ease-in-out;
+
+}
+
+.logo:hover{
+    /*background: #e0b066;
+    padding: 3px;
+    opacity: 0.75;
+    border-color: #E4B636;
+    border-style: solid;
+    border-radius: 10px;*/
+    -webkit-transform: translate(1050px,0px);
+    -moz-transform: translate(1050px,0px);
+}

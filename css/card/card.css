@@ -1,0 +1,92 @@
+.card{
+    position:relative;
+    width:1280px;
+    margin: 0 auto;
+    font-family: 'Verdana', sans-serif;
+    text-decoration: none;
+    text-align:center;
+    background-color: white;
+    overflow: hidden;
+    border-color: #E4B836;
+    border-style: solid;
+    border-radius: 20px;
+
+}
+
+.card__img{
+  opacity: 0.85;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.card__mascot{
+position:relative;
+margin: 0 auto;
+width:185px;
+height:185px;
+border: 15px;
+border-style: solid;
+border-radius: 185px;
+border-color: white;
+margin-top: -92px;
+-moz-transition: all 1s 0.1s ease-in;
+-webkit-transition: all 1s 0.1s ease-in;
+}
+
+.card__mascot:hover{
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  cursor: pointer;
+  }
+
+.card_button{
+   font-family: verdana;
+   font-size: 35px;
+   text-align: center;
+   text-decoration: none;
+   color: #fff;
+   width: 480px;
+   height: 80px;
+   padding: 14px 44px;
+   margin: 20px;
+   /*border: 1px solid #888;*/
+   -moz-transition: all 2s ease-out;
+   -webkit-transition: all 2s ease-out;
+   cursor: pointer;
+   background-color:#f0b4a1;
+   border-radius: 10px;
+   opacity: 0.75;
+}
+
+.table_button{
+   font-family: verdana;
+   font-size: 28px;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   width: 230px;
+   height: 50px;
+   padding: 7px 24px;
+
+   cursor: pointer;
+   background-color:#6eaae5;
+   border-radius: 10px;
+   }
+
+ .card_button:hover{
+   background-color: #f0d8d1;
+   color: #000;
+   -webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+   opacity: 1;
+     }
+
+     .table_button:hover{
+      color: #e23b20;
+     }
+
+
+ .card__img:hover {
+        opacity: 1;
+}

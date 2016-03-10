@@ -1,0 +1,14 @@
+#body{
+    background:#d8c4a5
+}
+
+.bg{
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+}

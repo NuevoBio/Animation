@@ -1,0 +1,23 @@
+
+.table_my{
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    width: 70%;
+    border:none;
+    border-radius: 10px;
+    font: 10pt verdana;
+    margin-bottom: 40px;
+    border-spacing: 4px;
+}
+.table_my tr, .table_my th{
+    padding: 10px;
+    background-color: #eee;
+}
+.table_my tr:hover{
+    background-color: #E4B837;
+    cursor: pointer;
+}
+.table_my tr td{
+    padding: 5px 15px;
+}
